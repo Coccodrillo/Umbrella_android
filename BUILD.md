@@ -40,13 +40,13 @@ Select the `develop` branch and **Checkout**
 
 ![](/building/06-2.png)
 
-7\) When Gradle sync is complete, select **Build** > **Build Bundle(s)/APK(s)** > **Build APK(s)** from the Android Studio menu.
+7\) Follow [Android Studio's documentation](https://developer.android.com/studio/run/device) to set up a device to run your app on. 
 
-![](/building/7.png)
+8\) If a device has been properly set up, you should see it under **Running devices** in the target device drop-down menu. Select the device and click run button (or select **Run** > **Run 'app'** from the menu). 
 
-8\) When the build process finishes, click **locate** from the Event Log to open the folder containing the APK file, **app-debug.apk**. You can [sideload](http://www.digitalcitizen.life/how-sideload-apps-using-apk-files-android-devices) this file onto any Android device.
+![](/building/08-1.png)
 
-![](/building/8.png)
+Android Studio builds the app, then installs and launches it under the name "Umbrella" on the selected device.
 
 ## Updating
 
@@ -58,7 +58,7 @@ Alternatively, you can also use the **Update Project** button on the toolbar:
 
 ![](/building/09-2.png)
 
-10\) Choose whether to "Merge incoming changes into the current branch" or to "Rebase the current branch on top of incoming changes" and click **OK** to proceed.
+10\) Choose whether to "Merge incoming changes into the current branch" or to "Rebase the current branch on top of incoming changes" (Recommended) and click **OK** to proceed.
 
 ![](/building/10.png)
 
