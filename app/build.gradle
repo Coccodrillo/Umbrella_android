@@ -88,6 +88,7 @@ dependencies {
     implementation "io.github.inflationx:viewpump:$viewpump"
     implementation "org.apache.commons:commons-text:$commonsText"
     implementation "org.apache.commons:commons-lang3:$commonsLang"
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.3'
 
 
     //Framework for replacing fragments
